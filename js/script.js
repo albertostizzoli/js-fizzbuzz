@@ -25,26 +25,4 @@ for (let i = 1; i <= 7; i++) {
     }
 }
 
-for (let d = 1; d <= 7; d++) {
-    for (let e = 1; e <= 7; e++) {
-        console.log(d);
-        console.log(e);
-        let bgBox;
-        //Condizioni
-        if (d % 5 > 0) {
-            bgBox = 'even2';
-        } else {
-            bgBox = 'odd2';
-        } if (e % 5 === 0) {
-            bgBox = 'odd2';
-        } else {
-            bgBox = 'even2';
-        }
-
-        const boxEl = document.createElement('div');
-        boxEl.className = ` box ${bgBox} d-flex justify-content-center align-items-center`;
-        boxEl.innerHTML = d * e;
-        wrapperEl.append(boxEl);
-    }
-}
 
