@@ -20,6 +20,7 @@ body{
     width: 70px;
     height: 70px;
     border: 1px solid black;
+    margin-right: 15px;
 }
 
 .even{
@@ -30,11 +31,11 @@ body{
     background-color: var(--color-square-2);
 }
 
-.even-2{
+.even2{
     background-color: var(--color-square-3);
 }
 
-.odd-2{
+.odd2{
     background-color: var(--color-square-4);
 }
 
