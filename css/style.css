@@ -1,0 +1,42 @@
+:root{
+    --color-body: rgb(8,59,76);
+    --color-square-1: rgb(19,137,178);
+    --color-square-2: rgb(12,214,161);
+    --color-square-3: rgb(255,209,102);
+    --color-square-4: rgb(240,70,111);
+}
+
+body{
+    background-color: var(--color-body);
+}
+
+#boxWrapper{
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.even{
+    background-color: var(--color-square-1);
+}
+
+.odd{
+    background-color: var(--color-square-2);
+}
+
+.even-2{
+    background-color: var(--color-square-3);
+}
+
+.odd-2{
+    background-color: var(--color-square-4);
+}
+
