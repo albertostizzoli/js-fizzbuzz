@@ -2,17 +2,17 @@ const wrapperEl = document.getElementById('boxWrapper');
 
 //Ciclo
 
-for(let i = 1; i <= 7; i++){
-    for(let c = 1; c <= 7; c++){
+for(let i = 0; i <= 10; i++){
+    for(let c = 0; c <= 10; c++){
         console.log(i);
         console.log(c);
         let bgBox;
         //Condizioni
-        if(i % 3 > 0){
+        if(i % 5 > 0){
             bgBox ='even';
         } else{
             bgBox ='odd';
-        } if (c % 3 === 0){
+        } if (c % 5=== 0){
             bgBox = 'odd';
         } else{
             bgBox = 'even';
