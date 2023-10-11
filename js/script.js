@@ -24,13 +24,13 @@ for (let i = 1; i <= 10; i++) {
         else {
             bgBox = 'even';
          }
-
         const boxEl = document.createElement('div');
         boxEl.className = ` box ${bgBox} d-flex justify-content-center align-items-center`;
         boxEl.innerHTML = c * i;
         wrapperEl.append(boxEl);
     }
 }
+
 
 /*if (i % 3 > 0) {
     bgBox = 'even';
